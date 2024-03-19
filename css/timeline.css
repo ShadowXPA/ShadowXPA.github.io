@@ -1,0 +1,43 @@
+#timeline {
+    gap: 1em;
+    position: relative;
+}
+
+.event {
+    gap: 1em;
+}
+
+.event-circle {
+    font-size: 1.5em;
+}
+
+#timeline .line {
+    position: absolute;
+    left: calc((1.5em - .5em) / 2);
+    width: .5em;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.card {
+    text-align: start;
+}
+
+.card i.icon {
+    margin: 0 .5em;
+}
+
+.card .name {
+    font-size: 1.2em;
+}
+
+.card .date {
+    font-size: .8em;
+    color: #aaa;
+}
+
+.card .description {
+    font-weight: initial;
+    font-size: .9em;
+}
