@@ -19,7 +19,7 @@ const timeline = [
                 icon: 'link-45deg'
             },
             {
-                uri: 'https://github.com/orgs/ShadowXPAEdu/repositories?q=tpsi-',
+                uri: 'https://github.com/orgs/ShadowXPAEdu/repositories?type=archived&q=tpsi-',
                 icon: 'github'
             }
         ]
@@ -65,7 +65,7 @@ const timeline = [
                 icon: 'link-45deg'
             },
             {
-                uri: 'https://github.com/orgs/ShadowXPAEdu/repositories?q=lei-',
+                uri: 'https://github.com/orgs/ShadowXPAEdu/repositories?type=archived&q=lei-',
                 icon: 'github'
             }
         ]
