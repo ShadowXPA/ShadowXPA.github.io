@@ -1,21 +1,4 @@
-body {
-    background-color: #000;
-    background-image: url('../img/background.jpg');
-    background-size: cover;
-    width: 100vw;
-    width: 100dvw;
-    height: 100vh;
-    height: 100dvh;
-}
-
-body > * {
-    width: 100vw;
-    width: 100dvw;
-    height: 100vh;
-    height: 100dvh;
-}
-
-:root {
+* {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -24,16 +7,52 @@ body > * {
     display: none;
 }
 
-.main {
-    overflow-y: scroll;
-    overflow-x: hidden;
+body {
+    background-color: #000;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    width: 100dvw;
+    height: 100vh;
+    height: 100dvh;
 }
 
-.backgrounds {
-    position: absolute;
+body > * {
+    width: 100%;
+    height: 100%;
 }
 
 .background {
+    background-color: #000;
+    background-image: url('../img/space-background.jpg');
+}
+
+.background, .background > * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.sky {
+    background-image: url('../img/sky.png');
+}
+
+.ground {
+    background-image: url('../img/ground.png');
+}
+
+.ground-mask {
+    background-image: url('../img/ground-mask-2.png');
+}
+
+.river-mask {
+    background-image: url('../img/river-mask.png');
+    opacity: .7;
+}
+
+[data-bg] {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -41,19 +60,32 @@ body > * {
     opacity: .2;
 }
 
-.background.active {
+[data-bg].active {
     opacity: .7;
+}
+
+.main {
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.main > .row {
+    height: 100%;
 }
 
 .card {
     border: 1px solid transparent;
     color: #fff;
     text-align: center;
-    padding: 2em;
+    padding: 2rem;
     width: min-content;
-    gap: 1em;
+    min-width: 25%;
+    gap: 1rem;
     background-color: transparent;
     transition: all 1s;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .card i {
@@ -67,7 +99,7 @@ body > * {
 }
 
 .card .name {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     white-space: nowrap;
 }
@@ -75,19 +107,19 @@ body > * {
 .card .contact {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: .5rem;
     white-space: nowrap;
-    font-size: .8em;
-    color: #aaa;
+    font-size: .8rem;
+    color: #ccc;
 }
 
 .card .contact i {
-    margin: 0 .5em;
+    margin: 0 .5rem;
 }
 
 .card .contact a {
     text-decoration: none;
-    color: #aaa;
+    color: #ccc;
 }
 
 .card .contact .email:hover {
@@ -99,18 +131,18 @@ body > * {
 }
 
 .card .links {
-    gap: 1em;
-    font-size: 1.2em;
+    gap: 1rem;
+    font-size: 1.2rem;
 }
 
 .card .links .link {
     transition: all .5s;
     border: 1px solid transparent;
-    border-radius: .3em;
+    border-radius: .3rem;
 }
 
 .card .links .link i {
-    padding: .2em;
+    padding: .2rem;
 }
 
 .card .links .link:hover {

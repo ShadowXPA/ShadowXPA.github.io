@@ -1,7 +1,7 @@
 const timeline = [
     {
         icon: 'mortarboard',
-        name: 'Higher National Diploma',
+        title: 'Higher National Diploma',
         date: {
             start: {
                 year: 2017,
@@ -12,11 +12,11 @@ const timeline = [
                 month: 7
             }
         },
-        description: 'Computer Science - Grade: 17/20',
+        location: 'Coimbra, Portugal',
+        description: 'Computer Science course at Coimbra Institute of Engineering<br/>Grade: 17/20<br/>GPA (according to Scholaro\'s calculator): 3.533/4.0',
         links: [
             {
-                uri: 'https://www.isec.pt',
-                icon: 'link-45deg'
+                uri: 'https://www.isec.pt'
             },
             {
                 uri: 'https://github.com/orgs/ShadowXPAEdu/repositories?type=archived&q=tpsi-',
@@ -26,7 +26,7 @@ const timeline = [
     },
     {
         icon: 'briefcase',
-        name: 'Let\'s Call - Internship',
+        title: 'Let\'s Call - Internship',
         date: {
             start: {
                 year: 2019,
@@ -37,7 +37,26 @@ const timeline = [
                 month: 7
             }
         },
-        description: 'C# - Ozeki SDK - Softphone',
+        location: 'Coimbra, Portugal',
+        description: 'Developed a Softphone for Windows.',
+        badges: [
+            {
+                text: 'C#',
+                color: 'light'
+            },
+            {
+                text: 'Ozeki SDK'
+            },
+            {
+                text: 'Softphone'
+            },
+            {
+                text: 'SIP'
+            },
+            {
+                text: 'WPF'
+            }
+        ],
         links: [
             {
                 uri: 'https://letscall.pt',
@@ -47,7 +66,7 @@ const timeline = [
     },
     {
         icon: 'mortarboard',
-        name: 'Bachelor\'s Degree',
+        title: 'Bachelor\'s Degree',
         date: {
             start: {
                 year: 2019,
@@ -58,11 +77,11 @@ const timeline = [
                 month: 7
             }
         },
-        description: 'Computer Science - Grade: 17/20',
+        location: 'Coimbra, Portugal',
+        description: 'Computer Science course at Coimbra Institute of Engineering<br/>Grade: 17/20<br/>GPA (according to Scholaro\'s calculator): 3.61/4.0',
         links: [
             {
-                uri: 'https://www.isec.pt',
-                icon: 'link-45deg'
+                uri: 'https://www.isec.pt'
             },
             {
                 uri: 'https://github.com/orgs/ShadowXPAEdu/repositories?type=archived&q=lei-',
@@ -72,7 +91,7 @@ const timeline = [
     },
     {
         icon: 'briefcase',
-        name: 'WIT Software - Internship',
+        title: 'WIT Software - Internship',
         date: {
             start: {
                 year: 2022,
@@ -83,17 +102,33 @@ const timeline = [
                 month: 7
             }
         },
-        description: 'Java - Spring Boot - React.js - Javascript',
+        location: 'Coimbra, Portugal',
+        description: 'Developed a web application, similar to Dependency-Track.',
+        badges: [
+            {
+                text: 'Java',
+                color: 'light'
+            },
+            {
+                text: 'Spring Boot'
+            },
+            {
+                text: 'React.js'
+            },
+            {
+                text: 'JavaScript',
+                color: 'light'
+            }
+        ],
         links: [
             {
-                uri: 'https://www.wit-software.com',
-                icon: 'link-45deg'
+                uri: 'https://www.wit-software.com'
             }
         ]
     },
     {
         icon: 'briefcase',
-        name: 'WIT Software - Full-time',
+        title: 'WIT Software - Full-time',
         date: {
             start: {
                 year: 2022,
@@ -104,11 +139,35 @@ const timeline = [
                 month: 3
             }
         },
-        description: 'Java - Spring Boot - Struts 2 - Javascript - SQL - Linux',
+        location: 'Coimbra, Portugal',
+        description: 'Worked closely with clients.<br/>Built and maintained several web applications and console applications.',
+        badges: [
+            {
+                text: 'Java',
+                color: 'light'
+            },
+            {
+                text: 'Spring Boot'
+            },
+            {
+                text: 'Struts 2'
+            },
+            {
+                text: 'JavaScript',
+                color: 'light'
+            },
+            {
+                text: 'SQL',
+                color: 'light'
+            },
+            {
+                text: 'Linux',
+                color: 'info'
+            }
+        ],
         links: [
             {
-                uri: 'https://www.wit-software.com',
-                icon: 'link-45deg'
+                uri: 'https://www.wit-software.com'
             }
         ]
     }

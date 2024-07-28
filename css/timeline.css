@@ -1,20 +1,20 @@
 #timeline {
-    gap: 1em;
     position: relative;
+    gap: 1rem;
 }
 
 .event {
-    gap: 1em;
+    gap: 1rem;
 }
 
 .event-circle {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 #timeline .line {
     position: absolute;
-    left: calc((1.5em - .5em) / 2);
-    width: .5em;
+    left: calc((1.5rem - .5rem) / 2);
+    width: .5rem;
     height: 100%;
     background: #fff;
     border-radius: 3px;
@@ -22,22 +22,34 @@
 
 .card {
     text-align: start;
+    width: fit-content;
 }
 
 .card i.icon {
-    margin: 0 .5em;
+    margin: 0 .3rem;
 }
 
 .card .name {
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    white-space: initial;
 }
 
-.card .date {
-    font-size: .8em;
-    color: #aaa;
+.card .date-location {
+    font-size: .8rem;
+    color: #ccc;
 }
 
 .card .description {
     font-weight: initial;
-    font-size: .9em;
+    font-size: .9rem;
+}
+
+.card .badges {
+    gap: .3rem;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
 }

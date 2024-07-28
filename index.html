@@ -15,28 +15,44 @@
     <script src="js/main.js" defer></script>
 </head>
 <body>
-    <div class="backgrounds">
-        <div class="background active" data-bg="space-1.png"></div>
-        <div class="background" data-bg="space-2.png"></div>
-        <div class="background" data-bg="space-3.png"></div>
-        <div class="background" data-bg="space-4.png"></div>
+    <div class="background">
+        <div class="stars">
+            <div class="" data-bg="space-1.png"></div>
+            <div class="" data-bg="space-2.png"></div>
+            <div class="" data-bg="space-3.png"></div>
+            <div class="" data-bg="space-4.png"></div>
+        </div>
+        <div class="river-mask"></div>
+        <div class="ground-mask"></div>
+        <div class="ground"></div>
+        <div class="sky"></div>
     </div>
-    <div class="main d-flex align-items-center justify-content-center">
-        <div class="card">
-            <div class="photo"><img src="img/photo.png"></div>
-            <div class="name mt-1 mb-2">Pedro Alves</div>
-            <div class="contact">
-                <div class="location"><i class="bi bi-geo-alt"></i>New York, United States</div>
-                <div class="email"><a href="mailto:palves.xpa@gmail.com"><i class="bi bi-envelope-at"></i>palves.xpa@gmail.com</a></div>
-            </div>
-            <div class="description">Hey there! I'm Pedro, and I am a Software Developer.</div>
-            <div class="links d-flex justify-content-center mt-3">
-                <div class="link"><a href="https://www.github.com/ShadowXPA"><i class="bi bi-github"></i></a></div>
-                <div class="link"><a href="https://www.github.com/ShadowXPAEdu"><i class="bi bi-github"></i></a></div>
-                <div class="link"><a href="https://www.linkedin.com/in/pedro-alves-xpa"><i class="bi bi-linkedin"></i></a></div>
-            </div>
-            <div class="links d-flex justify-content-center next">
-                <div class="link"><a href="/timeline"><i class="bi bi-arrow-right"></i></a></div>
+    <div class="main container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col">
+                <div class="card my-3">
+                    <div class="photo"><img src="img/photo.png"></div>
+                    <div class="name mt-1 mb-2">Pedro Alves</div>
+                    <div class="contact">
+                        <div class="location"><i class="bi bi-geo-alt"></i>New York, United States</div>
+                        <div class="email"><a href="mailto:palves.xpa@gmail.com"><i class="bi bi-envelope-at"></i>palves.xpa@gmail.com</a></div>
+                    </div>
+                    <div class="description">Hey there!<br/>I'm Pedro, and I am a Software Developer originally from Portugal and currently based in New York.</div>
+                    <div class="links d-flex justify-content-center flex-wrap mt-3">
+                        <div class="link">
+                            <a href="https://www.github.com/ShadowXPA" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.github.com/ShadowXPAEdu" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.linkedin.com/in/pedro-alves-xpa" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="links d-flex justify-content-center next">
+                        <div class="link"><a href="/timeline"><i class="bi bi-arrow-right"></i></a></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
