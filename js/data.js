@@ -1,7 +1,7 @@
 const timeline = [
     {
         icon: 'mortarboard',
-        title: 'Higher National Diploma',
+        title: 'Associate\'s Degree',
         date: {
             start: {
                 year: 2017,
@@ -155,6 +155,9 @@ const timeline = [
             {
                 text: 'JavaScript',
                 color: 'light'
+            },
+            {
+                text: 'jQuery'
             },
             {
                 text: 'SQL',
