@@ -13,7 +13,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Computer Science course at Coimbra Institute of Engineering<br/>Grade: 17/20<br/>GPA: 3.533/4.0',
+        description: 'Computer Science course at Coimbra Institute of Engineering<br/>Grade: 17/20<br/>GPA: 3.650/4.0',
         links: [
             {
                 uri: 'https://www.isec.pt'
@@ -78,7 +78,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Computer Science course at Coimbra Institute of Engineering<br/>Grade: 17/20<br/>GPA: 3.610/4.0',
+        description: 'Computer Science course at Coimbra Institute of Engineering<br/>Grade: 17/20<br/>GPA: 3.624/4.0',
         links: [
             {
                 uri: 'https://www.isec.pt'
