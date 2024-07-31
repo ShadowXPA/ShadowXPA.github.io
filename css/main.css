@@ -148,3 +148,7 @@ body > * {
 .card .links .link:hover {
     border: 1px solid #fff;
 }
+
+.links .link a {
+    white-space: nowrap;
+}
