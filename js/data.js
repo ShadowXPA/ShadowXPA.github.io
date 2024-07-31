@@ -103,7 +103,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Developed a web application, similar to Dependency-Track.',
+        description: 'Developed a web application alert system for 0-day vulnerabilities, similar to Dependency-Track.',
         badges: [
             {
                 text: 'Java',
@@ -140,7 +140,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Worked closely with clients.<br/>Built and maintained several web applications and console applications.',
+        description: 'Worked closely with clients.<br/>Built and maintained several web applications and console applications.<br/>Installed and updated applications on test environment machines via SSH.<br/>Created SQL scripts to update test environment databases.',
         badges: [
             {
                 text: 'Java',
