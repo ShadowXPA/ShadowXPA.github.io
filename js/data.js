@@ -51,9 +51,6 @@ const timeline = [
                 text: 'Softphone'
             },
             {
-                text: 'SIP'
-            },
-            {
                 text: 'WPF'
             }
         ],
@@ -103,7 +100,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Developed a web application alert system for 0-day vulnerabilities, similar to Dependency-Track.',
+        description: 'Developed a web application, similar to Dependency-Track.<br/>It detects 0-day vulnerabilities in project dependencies.<br/>When any vulnerability is discovered, users are notified via email.',
         badges: [
             {
                 text: 'Java',
@@ -117,6 +114,10 @@ const timeline = [
             },
             {
                 text: 'JavaScript',
+                color: 'light'
+            },
+            {
+                text: 'SQL',
                 color: 'light'
             }
         ],
@@ -140,7 +141,7 @@ const timeline = [
             }
         },
         location: 'Coimbra, Portugal',
-        description: 'Worked closely with clients.<br/>Built and maintained several web applications and console applications.<br/>Installed and updated applications on test environment machines via SSH.<br/>Created SQL scripts to update test environment databases.',
+        description: 'Worked closely with clients.<br/>Built and maintained several web and console applications, adding new features and debugging.<br/>Installed and updated applications on test environment machines via SSH.<br/>Created SQL scripts to update test environment databases.',
         badges: [
             {
                 text: 'Java',
